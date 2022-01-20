@@ -1,0 +1,1 @@
+class PostPolicy < UnrestrictedPolicy; end

@@ -1,0 +1,1 @@
+class TeamPolicy < UnrestrictedPolicy; end

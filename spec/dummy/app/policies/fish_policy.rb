@@ -1,0 +1,1 @@
+class FishPolicy < UnrestrictedPolicy; end
