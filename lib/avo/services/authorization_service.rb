@@ -40,23 +40,14 @@ module Avo
       class << self
         def authorize(user, record, action, **args)
           return true if skip_authorization
-          return true if user.nil?
 
-          begin
-            if Pundit.policy user, record
-              Pundit.authorize user, record, action
-            end
+          Pundit.authorize user, record, action
 
-            true
-          rescue Pundit::NotDefinedError
-            false
-          rescue => error
-            if args[:raise_exception] == false
-              false
-            else
-              raise error
-            end
-          end
+          true
+        rescue => err
+          return false if args[:raise_exception] == false
+   
+          raise err
         end
 
         def authorize_action(user, record, action, **args)
