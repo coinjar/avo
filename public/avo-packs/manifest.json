@@ -1,0 +1,31 @@
+{
+  "application.css": "/avo-packs/css/application.css",
+  "application.js": "/avo-packs/js/application-3f65a6753be5e6b18eb4.js",
+  "css/application.css.map": "/avo-packs/css/application.css.map",
+  "entrypoints": {
+    "application": {
+      "assets": {
+        "css": [
+          "/avo-packs/css/application.css"
+        ],
+        "js": [
+          "/avo-packs/js/application-3f65a6753be5e6b18eb4.js"
+        ]
+      }
+    }
+  },
+  "js/application-3f65a6753be5e6b18eb4.js.map": "/avo-packs/js/application-3f65a6753be5e6b18eb4.js.map",
+  "js/vendors-node_modules_rails_actioncable_src_index_js-981e6fc796dab32d7258.chunk.js": "/avo-packs/js/vendors-node_modules_rails_actioncable_src_index_js-981e6fc796dab32d7258.chunk.js",
+  "js/vendors-node_modules_rails_actioncable_src_index_js-981e6fc796dab32d7258.chunk.js.map": "/avo-packs/js/vendors-node_modules_rails_actioncable_src_index_js-981e6fc796dab32d7258.chunk.js.map",
+  "media/images/logo.png": "/avo-packs/media/images/dadf2db36589607d107d.png",
+  "media/images/nunito-v16-latin-700.eot": "/avo-packs/media/images/b78d61ab7e046de8c156.eot",
+  "media/images/nunito-v16-latin-700.svg": "/avo-packs/media/images/195026a50008c53526ef.svg",
+  "media/images/nunito-v16-latin-700.ttf": "/avo-packs/media/images/1fd17dabf6b7d2b15348.ttf",
+  "media/images/nunito-v16-latin-700.woff": "/avo-packs/media/images/c9ab29becb76ddab01d0.woff",
+  "media/images/nunito-v16-latin-700.woff2": "/avo-packs/media/images/4ad349571e28bb59c5a5.woff2",
+  "media/images/nunito-v16-latin-regular.eot": "/avo-packs/media/images/57a5470848663767abbf.eot",
+  "media/images/nunito-v16-latin-regular.svg": "/avo-packs/media/images/13ae283c0d7cc04efe7e.svg",
+  "media/images/nunito-v16-latin-regular.ttf": "/avo-packs/media/images/b2e4cf0fab6c8ca66b7f.ttf",
+  "media/images/nunito-v16-latin-regular.woff": "/avo-packs/media/images/1f30e08faa7c60d1f7ac.woff",
+  "media/images/nunito-v16-latin-regular.woff2": "/avo-packs/media/images/39a18f443d434999b89b.woff2"
+}
