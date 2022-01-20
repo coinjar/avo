@@ -69,13 +69,8 @@ module Avo
 
         def apply_policy(user, model)
           return model if skip_authorization
-          return model if user.nil?
 
-          begin
-            Pundit.policy_scope! user, model
-          rescue
-            model
-          end
+          Pundit.policy_scope! user, model
         end
 
         def skip_authorization
